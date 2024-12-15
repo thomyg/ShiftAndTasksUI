@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ShiftAndTasks/ShiftAndTasksWebPart.js",
+          "manifest": "./src/webparts/ShiftAndTasks/ShiftAndTasksWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldWebPartStrings": "lib/webparts/ShiftAndTasks/loc/{locale}.js"
+  }
+}

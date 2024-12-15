@@ -1,0 +1,22 @@
+// ShiftAndTasksWebPart.manifest.json
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "2b62fb94-2b7d-4451-a8a8-6f0ec9a34c79",
+  "alias": "ShiftAndTasksWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Shifts and Tasks" },
+    "description": { "default": "Shows employee shifts and tasks" },
+    "officeFabricIconFontName": "Calendar",
+    "properties": {
+      "description": "Shifts and Tasks"
+    }
+  }]
+}
